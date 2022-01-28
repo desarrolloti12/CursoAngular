@@ -1,0 +1,10 @@
+<h3>Pokemon fight</h3>
+<hr>
+<ul>
+    <li *ngFor="let personajes of personajes; let i = index">
+        {{i + 1}} {{ personajes.nombre}} -- {{ personajes.poder | number}}
+    </li>
+    <!--<li>Charmander - 700 </li>
+            <li>Bulbasaur - 15000 </li>
+            <li>Squirtle - 8500 </li>-->
+</ul>
